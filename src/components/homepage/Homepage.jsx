@@ -48,10 +48,7 @@ const Homepage = () => {
                 <div
                   key={i}
                   className={`mt-5 rounded-md mx-[10%] w-screen bg-green-300 cursor-pointer border-2 transition-all delay-100 duration-1000
-
-                  // index === i
-                  //   ? "translate-x-0 opacity-100"
-                  //   : "-translate-x-full opacity-0"
+${index === i ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}
 
                 `}
                 >
